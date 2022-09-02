@@ -11,4 +11,4 @@ function! s:HubFixDo(inurl)
   let w:quickfix_title = l:cmd
 endfunction
 
-command -nargs=1 -complete=history HubFix call s:HubFixDo(<q-args>)
+command -nargs=1 -complete=history GitHubFix call s:HubFixDo(<q-args>)
